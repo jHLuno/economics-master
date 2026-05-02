@@ -26,15 +26,19 @@ Output rules:
 - If the user asks something off-topic (not economics), politely steer them back.`;
 
 /**
- * Normalize the LLM's math delimiters so KaTeX can render them.
- * Many models emit \[..\] / \(..\) (LaTeX) instead of $$..$$ / $..$ (Markdown math).
- * Also strip the empty CJK citation brackets some models leave behind (【】).
+ * Normalize the LLM's output for the UI:
+ *   - Convert LaTeX-flavoured \[..\] / \(..\) delimiters to Markdown-math
+ *     $$..$$ / $..$ that remark-math + KaTeX understand.
+ *   - Strip the CJK citation brackets some models inject (e.g. 【†L1-L4】
+ *     "fake citation" blobs from reasoning-trained models). We surface real
+ *     citations separately in the Sources panel.
  */
 function normalizeMath(s: string): string {
   return s
     .replace(/\\\[\s*([\s\S]*?)\s*\\\]/g, (_, inner) => `\n$$\n${inner}\n$$\n`)
     .replace(/\\\(\s*([\s\S]*?)\s*\\\)/g, (_, inner) => `$${inner}$`)
-    .replace(/【\s*】/g, "");
+    .replace(/【[^】]*】/g, "")
+    .replace(/[ \t]+([.,;:!?])/g, "$1");
 }
 
 export async function POST(req: Request) {
