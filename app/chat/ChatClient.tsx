@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Markdown } from "@/components/Markdown";
+import { fetchJson } from "@/lib/fetchJson";
 import type { ChatMessage, ChatResponse, Citation } from "@/lib/types";
 
 type Turn = {
@@ -42,15 +43,10 @@ export function ChatClient() {
         role: t.role,
         content: t.content,
       }));
-      const res = await fetch("/api/chat", {
+      const data = await fetchJson<ChatResponse>("/api/chat", {
         method: "POST",
-        headers: { "content-type": "application/json" },
         body: JSON.stringify({ messages }),
       });
-      const data = (await res.json()) as ChatResponse | { error: string };
-      if (!res.ok || "error" in data) {
-        throw new Error(("error" in data && data.error) || `HTTP ${res.status}`);
-      }
       setTurns([
         ...next,
         {

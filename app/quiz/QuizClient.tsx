@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Markdown } from "@/components/Markdown";
+import { fetchJson } from "@/lib/fetchJson";
 import type { QuizQuestion, QuizResponse } from "@/lib/types";
 
 const PRESETS = [
@@ -34,15 +35,10 @@ export function QuizClient() {
     setAnswers({});
     setSubmitted(false);
     try {
-      const res = await fetch("/api/quiz", {
+      const data = await fetchJson<QuizResponse>("/api/quiz", {
         method: "POST",
-        headers: { "content-type": "application/json" },
         body: JSON.stringify({ topic: trimmed, count }),
       });
-      const data = (await res.json()) as QuizResponse | { error: string };
-      if (!res.ok || "error" in data) {
-        throw new Error(("error" in data && data.error) || `HTTP ${res.status}`);
-      }
       setStatus({ kind: "ready", quiz: data });
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);

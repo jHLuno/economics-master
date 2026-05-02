@@ -41,6 +41,17 @@ type ModelQuestion = {
 };
 
 export async function POST(req: Request) {
+  try {
+    return await handle(req);
+  } catch (err) {
+    // Outermost safety net: anything thrown here must still surface as JSON
+    // so the client never sees a plain-text/HTML Vercel error page.
+    const msg = err instanceof Error ? err.message : "internal error";
+    return NextResponse.json({ error: msg }, { status: 500 });
+  }
+}
+
+async function handle(req: Request): Promise<Response> {
   let body: { topic?: string; count?: number };
   try {
     body = await req.json();
