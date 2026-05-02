@@ -36,4 +36,4 @@ export function getChatClient(): OpenAI {
 }
 
 export const CHAT_MODEL =
-  process.env.OPENROUTER_MODEL ?? "openai/gpt-4o-mini";
+  process.env.OPENROUTER_MODEL ?? "openai/gpt-oss-120b:free";

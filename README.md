@@ -17,7 +17,7 @@ A web-based AI tutor specialized in Economics. Built with Next.js 14 (App Router
 - Next.js 14 (App Router) + TypeScript
 - Tailwind CSS
 - **Embeddings**: `Xenova/all-MiniLM-L6-v2` via [`@xenova/transformers`](https://github.com/xenova/transformers.js) — runs in pure JS/WASM, no API key
-- **Chat**: any OpenRouter model (default `openai/gpt-4o-mini`) via the OpenAI-compatible SDK
+- **Chat**: any OpenRouter model (default `openai/gpt-oss-120b:free`) via the OpenAI-compatible SDK
 - **Vector store**: in-memory cosine similarity over a `data/embeddings.json` produced at ingest time
 
 ## How RAG works here
@@ -97,7 +97,7 @@ The `netlify.toml` at the repo root pre-configures the build command, plugin (`@
 | Name | Required | Default | Purpose |
 | --- | --- | --- | --- |
 | `OPENROUTER_API_KEY` | yes | — | Auth for OpenRouter chat completions |
-| `OPENROUTER_MODEL` | no | `openai/gpt-4o-mini` | Override the chat model |
+| `OPENROUTER_MODEL` | no | `openai/gpt-oss-120b:free` | Override the chat model |
 | `OPENROUTER_SITE_URL` | no | — | Sent as `HTTP-Referer` to OpenRouter |
 | `OPENROUTER_APP_NAME` | no | `Economics Expert` | Sent as `X-Title` to OpenRouter |
 
