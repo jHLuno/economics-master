@@ -18,11 +18,24 @@ Output rules:
     3. Walk through any formula or graph step by step.
     4. Give a concrete numeric or real-world example.
     5. Conclude with a one-sentence "takeaway".
-- Use Markdown: headings (##), bulleted lists, and \`inline code\` for variables/formulas.
+- Use Markdown: headings (##), bulleted/numbered lists, and \`inline code\` for variable names. Prefer prose and lists over Markdown tables (tables often break in chat UIs).
+- For math, use LaTeX delimited by single dollar signs for inline (\`$E = mc^2$\`) and double dollars for display (\`$$\\text{PED} = \\frac{\\%\\Delta Q}{\\%\\Delta P}$$\`). Do NOT wrap math in parentheses or square brackets — those will not render.
 - When you use a source excerpt, cite it inline with bracketed numbers like [1], [2] that match the order of the "Sources" list you receive.
 - If the excerpts do not cover the question, say so explicitly and answer from general economics knowledge, marking that part with "(general knowledge)".
 - Never invent citations. Never claim an excerpt says something it doesn't.
 - If the user asks something off-topic (not economics), politely steer them back.`;
+
+/**
+ * Normalize the LLM's math delimiters so KaTeX can render them.
+ * Many models emit \[..\] / \(..\) (LaTeX) instead of $$..$$ / $..$ (Markdown math).
+ * Also strip the empty CJK citation brackets some models leave behind (【】).
+ */
+function normalizeMath(s: string): string {
+  return s
+    .replace(/\\\[\s*([\s\S]*?)\s*\\\]/g, (_, inner) => `\n$$\n${inner}\n$$\n`)
+    .replace(/\\\(\s*([\s\S]*?)\s*\\\)/g, (_, inner) => `$${inner}$`)
+    .replace(/【\s*】/g, "");
+}
 
 export async function POST(req: Request) {
   let body: { messages: ChatMessage[] };
@@ -75,7 +88,8 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: msg }, { status: 500 });
   }
 
-  const answer = completion.choices[0]?.message?.content ?? "";
+  const rawAnswer = completion.choices[0]?.message?.content ?? "";
+  const answer = normalizeMath(rawAnswer);
 
   const citations: Citation[] = retrieved.map((r) => ({
     source: r.source,

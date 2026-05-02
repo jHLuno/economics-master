@@ -53,17 +53,19 @@ export default function Home() {
         <h3 className="text-xl font-semibold text-ink-50">How it works</h3>
         <ol className="mt-3 list-decimal pl-5 space-y-1 text-ink-200">
           <li>
-            Source PDFs are parsed, chunked, and embedded with{" "}
-            <code className="text-accent-400">text-embedding-3-small</code>.
+            Source PDFs are parsed, chunked, and embedded locally with{" "}
+            <code className="text-accent-400">Xenova/all-MiniLM-L6-v2</code>{" "}
+            (384-dim, runs in pure JS — no embedding API key needed).
           </li>
           <li>
-            Your question is embedded and matched against the chunks via cosine
-            similarity.
+            Your question is embedded with the same model and matched against
+            the chunks via cosine similarity.
           </li>
           <li>
             The top passages are passed to{" "}
-            <code className="text-accent-400">gpt-4o-mini</code> with a tutor
-            system prompt that requires step-by-step reasoning and citations.
+            <code className="text-accent-400">openai/gpt-oss-120b:free</code>{" "}
+            via OpenRouter with a tutor system prompt that requires
+            step-by-step reasoning and citations.
           </li>
           <li>
             For quizzes, retrieved passages constrain the model to write
