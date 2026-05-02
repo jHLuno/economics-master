@@ -81,7 +81,7 @@ async function handle(req: Request): Promise<Response> {
   const sourcesBlock = retrieved
     .map(
       (r, i) =>
-        `[${i + 1}] ${r.sourceTitle}\n"""${r.text.slice(0, 1400)}"""`,
+        `[${i + 1}] ${r.sourceTitle}\n"""${r.text.slice(0, 800)}"""`,
     )
     .join("\n\n");
 

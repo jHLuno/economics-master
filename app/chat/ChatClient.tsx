@@ -2,13 +2,15 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Markdown } from "@/components/Markdown";
-import { fetchJson } from "@/lib/fetchJson";
-import type { ChatMessage, ChatResponse, Citation } from "@/lib/types";
+import { streamChat } from "@/lib/streamChat";
+import type { ChatMessage, Citation } from "@/lib/types";
 
 type Turn = {
   role: "user" | "assistant";
   content: string;
   citations?: Citation[];
+  /** Streaming flag — true while tokens are still arriving. */
+  streaming?: boolean;
 };
 
 const SUGGESTIONS = [
@@ -18,6 +20,16 @@ const SUGGESTIONS = [
   "How does price elasticity of demand work?",
   "Walk me through the difference between perfect competition and monopoly.",
 ];
+
+/** Mirror of the server-side `normalizeMath()` so streaming output renders
+ *  KaTeX correctly even before the full answer arrives. */
+function normalizeMath(s: string): string {
+  return s
+    .replace(/\\\[\s*([\s\S]*?)\s*\\\]/g, (_, inner) => `\n$$\n${inner}\n$$\n`)
+    .replace(/\\\(\s*([\s\S]*?)\s*\\\)/g, (_, inner) => `$${inner}$`)
+    .replace(/【[^】]*】/g, "")
+    .replace(/[ \t]+([.,;:!?])/g, "$1");
+}
 
 export function ChatClient() {
   const [turns, setTurns] = useState<Turn[]>([]);
@@ -34,30 +46,82 @@ export function ChatClient() {
     const trimmed = question.trim();
     if (!trimmed || loading) return;
     setError(null);
-    const next: Turn[] = [...turns, { role: "user", content: trimmed }];
-    setTurns(next);
+    const userTurn: Turn = { role: "user", content: trimmed };
+    const assistantTurn: Turn = {
+      role: "assistant",
+      content: "",
+      streaming: true,
+    };
+    const baseTurns: Turn[] = [...turns, userTurn];
+    // Optimistically render the user message + an empty streaming assistant
+    // message so tokens fill in as they arrive.
+    setTurns([...baseTurns, assistantTurn]);
     setInput("");
     setLoading(true);
+
+    const messages: ChatMessage[] = baseTurns.map((t) => ({
+      role: t.role,
+      content: t.content,
+    }));
+
+    let buf = "";
+
     try {
-      const messages: ChatMessage[] = next.map((t) => ({
-        role: t.role,
-        content: t.content,
-      }));
-      const data = await fetchJson<ChatResponse>("/api/chat", {
-        method: "POST",
-        body: JSON.stringify({ messages }),
-      });
-      setTurns([
-        ...next,
+      await streamChat(
+        { messages },
         {
-          role: "assistant",
-          content: data.answer,
-          citations: data.citations,
+          onMeta: (cs) => {
+            // Lock in citations on the assistant turn so the user sees the
+            // Sources panel even while tokens are still streaming in.
+            setTurns((prev) => {
+              const copy = prev.slice();
+              copy[copy.length - 1] = {
+                ...copy[copy.length - 1],
+                citations: cs,
+              };
+              return copy;
+            });
+          },
+          onToken: (delta) => {
+            buf += delta;
+            const rendered = normalizeMath(buf);
+            setTurns((prev) => {
+              const copy = prev.slice();
+              copy[copy.length - 1] = {
+                ...copy[copy.length - 1],
+                content: rendered,
+              };
+              return copy;
+            });
+          },
+          onDone: () => {
+            setTurns((prev) => {
+              const copy = prev.slice();
+              copy[copy.length - 1] = {
+                ...copy[copy.length - 1],
+                streaming: false,
+              };
+              return copy;
+            });
+          },
         },
-      ]);
+      );
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
       setError(msg);
+      // Drop the empty assistant placeholder if we never received any tokens.
+      setTurns((prev) => {
+        if (prev.length === 0) return prev;
+        const last = prev[prev.length - 1];
+        if (last.role === "assistant" && last.content === "") {
+          return prev.slice(0, -1);
+        }
+        return prev.map((t, i) =>
+          i === prev.length - 1 && t.role === "assistant"
+            ? { ...t, streaming: false }
+            : t,
+        );
+      });
     } finally {
       setLoading(false);
     }
@@ -103,7 +167,22 @@ export function ChatClient() {
               <p className="text-ink-50 whitespace-pre-wrap">{t.content}</p>
             ) : (
               <>
-                <Markdown>{t.content}</Markdown>
+                {t.content ? (
+                  <Markdown>{t.content}</Markdown>
+                ) : (
+                  <div className="text-ink-300 text-sm flex items-center gap-2">
+                    <span className="inline-block h-2 w-2 rounded-full bg-accent-500 animate-pulse" />
+                    {t.streaming
+                      ? "Retrieving sources and reasoning…"
+                      : "(no content)"}
+                  </div>
+                )}
+                {t.streaming && t.content && (
+                  <div className="mt-1 text-ink-300 text-xs flex items-center gap-2">
+                    <span className="inline-block h-1.5 w-1.5 rounded-full bg-accent-500 animate-pulse" />
+                    streaming…
+                  </div>
+                )}
                 {t.citations && t.citations.length > 0 && (
                   <details className="mt-3 text-sm text-ink-200">
                     <summary className="cursor-pointer text-accent-400 hover:text-accent-500">
@@ -131,14 +210,8 @@ export function ChatClient() {
           </article>
         ))}
 
-        {loading && (
-          <div className="self-start text-ink-300 text-sm flex items-center gap-2">
-            <span className="inline-block h-2 w-2 rounded-full bg-accent-500 animate-pulse" />
-            Retrieving sources and reasoning…
-          </div>
-        )}
         {error && (
-          <div className="self-start rounded-md border border-red-500/40 bg-red-900/30 text-red-200 px-3 py-2 text-sm">
+          <div className="self-start rounded-md border border-red-500/40 bg-red-900/30 text-red-200 px-3 py-2 text-sm whitespace-pre-wrap">
             {error}
           </div>
         )}
