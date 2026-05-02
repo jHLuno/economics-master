@@ -1,0 +1,1147 @@
+Economics
+Chapter 1
+
+Economy - system of production, distribution and consumption of goods and
+services within a particular region or country.
+Economics - social science that studies how individuals, firms and societies
+make choices to allocate limited resources to satisfy their unlimited wants.
+Oikonomia - household management
+Main problem - limited resources and unlimited needs.
+
+Economics is a social science, meaning it studies human behavior and social
+outcomes using:
+– Theory and models
+
+– Data and evidence
+– Testing and evaluation
+Positive economics: Analyzes cause-and-effect. Claims are
+falsifiable. (Real data and facts)
+Normative economics: Applies values or goals (fairness, freedom,
+sustainability). Claims are about ought/should.
+
+Need
+
+basic requirements to survive
+
+Want
+
+what you want
+
+Demand
+
+when want backed by buying
+power (money)
+
+Supply - the quantity of a product or service that producers are willing and able
+to offer for sale.
+Scarcity - the gap between limited resources and unlimited wants.
+Opportunity Cost - the value of the best alternative that is given up when a
+choice is made.
+Sunk Costs - expenses that already completed and cannot be returned.
+GROSS DOMESTIC PRODUCT (GDP) - the total value of all goods and
+services produced within a country's borders during a specific period
+
+Charles Mallor Hatfield
+
+“Rainmaker” (pluviculturist)
+
+Aristotle
+
+oikonomia
+
+François Quesnay
+
+Economy as circular flow system
+
+Adam Smith
+
+First Classical Economist
+(“Father”)
+
+William Stanley Jevons
+
+Marginal Revolution (modern
+microeconomics engine)
+
+John Maynard Keynes
+
+Keynesian Revolution (1930s) macroeconomics is
+born
+
+1940s
+
+Econometrics and the “data turn”
+
+Chapter 2
+
+Market - mechanism connecting buyer and seller. Their interactions determine
+the price and quantity of a good/service.
+
+BY STRUCTURE:
+
+perfect competition, monopolistic
+competition, oligopoly, and
+monopoly
+
+BY PRODUCT:
+
+consumer goods markets, capital
+goods markets, commodity
+markets, services markets,
+technology and digital goods
+markets
+
+BY GEOGRAPHY:
+
+local, national, international
+markets, indicating the scale and
+scope of the exchange
+
+Prices are signals and incentives (стимулы), that shows scarcity/value,
+incentivize producers/consumers to adjust behavior
+Demand (Qd) - the quantity of a product or service that consumers are willing
+and able to buy at a given price over a specific time period.
+Law of Demand - as the price of a product falls, the quantity demanded of the
+product will usually increase, ceteris paribus (all else equal).
+Factors affecting Demand (shifters) - are non-price variables that change how
+much consumers want to buy at every price. When a determinant changes, the
+entire demand curve shifts (right = higher demand, left = lower demand).
+
+●
+
+Income (Y) - changes purchasing power.
+Normal goods: Y (up) -> D (shift right)
+Inferior goods: Y (up) -> D (shift left)
+●
+
+Prices of related goods: Substitutes - If the price of a substitute rises,
+demand for this good rises. (𝑃 𝑠𝑢𝑏 ↑ 𝐷 𝑡ℎ𝑖𝑠 ↑)
+
+●
+
+Prices of related goods: Complements - If the price of a complement
+rises, demand for this good falls (𝑃 𝑐𝑜𝑚𝑝 ↑ 𝐷 𝑡ℎ𝑖𝑠 ↓)
+
+●
+
+Tastes / Preferences (T) - Trends, culture, advertising, health info, and
+social influence change what people want.
+
+●
+
+Expectations (E) - Consumers buy differently today based on beliefs
+about future prices, income, or availability.
+
+●
+
+Number of buyers / Population (N) - More buyers means higher market
+demand ( 𝑁 ↑ 𝐷 ↑ )
+
+General (structural) demand function
+𝑄𝑑 = 𝑓 ( 𝑃 , 𝑌 , 𝑃 𝑠 , 𝑃 𝑐 , 𝑇 , 𝐸 , 𝑁 )
+Where:
+Qd = quantity demanded
+𝑷 = own price of the good
+𝒀 = income
+𝑷𝒔 = price of substitutes
+𝑷𝒄 = price of complements
+𝑻 = tastes/preferences
+𝑬 = expectations (future prices/income)
+𝑵 = number of buyers (market size)
+
+Supply (Qs) - the quantity of a product or service that producers are willing and
+able to sell at a given price over a specific time period.
+Law of supply - as the price of a product rises, the quantity supplied of the
+product will usually increase, ceteris paribus.
+Higher prices = greater potential profit → more incentive to produce.
+Lower prices = less profit → producers reduce supply.
+
+Factors affecting supply (shifters) - a supply shifter is any non-price factor that
+changes how much producers are willing and able to sell at every price. When a
+supply shifter changes, the entire supply curve shifts (left or right).
+
+●
+
+Resource Prices - if the prices go up, supply shifts left. If costs to
+produce is decreased, supply shifts right.
+
+●
+
+Technology / Productivity - better technology lowers costs or
+increases output per input.
+
+●
+
+Number of sellers - More firms in the market increases total supply.
+More sellers - supply shifts right. Fewer sellers - supply shifts left.
+
+●
+
+Taxes/Subsidies - Policies change firms’ costs and incentives. Tax on
+producers = supply shifts left. Subsidy to producers = supply shifts
+right.
+
+●
+
+Expectations - firms may change today’s supply based on what they
+expect tomorrow. Expect higher future price - supply today can fall
+(hold inventory). Expect higher future costs - supply today can rise
+(produce more now).
+
+General (structural) supply function
+𝑸𝒔 = 𝒈(𝑷, 𝑾, 𝑻𝒆𝒄𝒉, 𝑻, 𝑺𝒖𝒃, 𝑬, 𝑵, 𝒁)
+Where:
+
+Qs = quantity supplied
+● P = price of the good
+● W = input prices/costs (to produce)
+● Tech = technology or productivity
+● T = taxes/subsidies (policy)
+● Sub = subsidies (if separated)
+● E = expectations (future prices/costs)
+● N = number of sellers
+● Z = shocks (weather, supply chain disruptions)
+●
+
+EQUILIBRIUM - the point where the demand curve meets the supply curve,
+indicating the equilibrium price and quantity.
+The price at which this happens is called the equilibrium price (P*), and the
+quantity is the equilibrium quantity (Q*).
+Surplus if the price is higher than equilibrium.
+Shortage if the price is lower than equilibrium.
+Elasticity - a measure of how much one economic variable responds to
+changes in another economic variable.
+
+Price Elasticity of Demand (PED) =
+𝑃𝑒𝑟𝑐𝑒𝑛𝑡𝑎𝑔𝑒 𝐶ℎ𝑎𝑛𝑔𝑒 𝑖𝑛 𝑄𝑢𝑎𝑛𝑡𝑖𝑡𝑦 𝐷𝑒𝑚𝑎𝑛𝑑𝑒𝑑 / 𝑃𝑒𝑟𝑐𝑒𝑛𝑡𝑎𝑔𝑒 𝐶ℎ𝑎𝑛𝑔𝑒 𝑖𝑛 𝑃𝑟𝑖𝑐𝑒
+
+Perfectly Inelastic
+
+PED = 0
+
+Quantity demanded
+remains constant
+regardless of price
+(life saving
+medications)
+
+Inelastic
+
+0 < PED < 1
+
+Percentage change in
+quantity demanded is
+less than the
+percentage change in
+price (gasoline)
+
+Unitary Elastic
+
+PED = 1
+
+Total revenue remains
+unchanged when the
+price
+changes (restaurants)
+
+Elastic
+
+PED > 1
+
+Percentage change in
+quantity demanded is
+greater than the
+percentage change in
+price (Vacation travel)
+
+Perfectly Elastic
+
+PED = ∞
+
+Consumers will only
+buy at one price and
+zero at
+any other price
+
+Price Elasticity of Supply (PES) - measures the responsiveness of the quantity
+supplied of a good to a change in its price.
+PES = 𝑃𝑒𝑟𝑐𝑒𝑛𝑡𝑎𝑔𝑒 𝐶ℎ𝑎𝑛𝑔𝑒 𝑖𝑛 𝑄𝑢𝑎𝑛𝑡𝑖𝑡𝑦 𝑆𝑢𝑝𝑝𝑙𝑖𝑒𝑑 / 𝑃𝑒𝑟𝑐𝑒𝑛𝑡𝑎𝑔𝑒 𝐶ℎ𝑎𝑛𝑔𝑒 𝑖𝑛 𝑃𝑟𝑖𝑐𝑒
+
+Perfectly Inelastic
+
+PES = 0
+
+Quantity supplied
+remains constant
+regardless of price
+(Land)
+
+Inelastic
+
+0 < PES < 1
+
+Percentage change in
+quantity supplied is
+less than the
+percentage change in
+price (Oil)
+
+Unitary Elastic
+
+PES = 1
+
+Producers are willing
+to supply whatever
+amount at one price
+level (factory-
+
+less than the
+percentage change in
+price (Oil)
+Unitary Elastic
+
+PES = 1
+
+Producers are willing
+to supply whatever
+amount at one price
+level (factoryproduced goods)
+
+Elastic
+
+PES > 1
+
+Percentage change in
+quantity supplied is
+greater
+than the percentage
+change in price
+(vacation travel)
+
+Perfectly Elastic
+
+PES = ∞
+
+Producers are willing
+to supply any amount
+at a
+certain price, but none
+at any other price
+(digital music)
+
+Pricing - businesses can set prices to maximize revenues or profits by
+understanding elasticity
+Taxation and government policy - governments can predict how changes in
+taxes can affect total tax revenue.
+Consumer and producer surplus - elasticity can provide insights into how
+changes in price or other factors might affect these surpluses.
+
+Chapter 3
+
+Consumer theory (behavior)
+Utility - the satisfaction or happiness derived from consuming a good/service.
+Rational consumers aim to maximize their utility given their budget constraints.
+Total utility (TU) - total satisfaction or happiness a person gets from consuming
+a certain amount of goods or services. Think of it as the sum total of joy or
+benefit you derive from all the units of a product or service you consume.
+Marginal utility (MU) - the additional satisfaction gained from consuming one
+more unit of a good/service. As consumption increases, marginal utility typically
+diminishes.
+MU =
+𝑪𝒉𝒂𝒏𝒈𝒆 𝒊𝒏 𝑻𝒐𝒕𝒂𝒍 𝑼𝒕𝒊𝒍𝒊𝒕𝒚 (𝜟𝑻𝑼) / 𝑪𝒉𝒂𝒏𝒈𝒆 𝒊𝒏 𝑵𝒖𝒎𝒃𝒆𝒓 𝒐𝒇 𝒖𝒏𝒊𝒕𝒔 𝒄𝒐𝒏𝒔𝒖𝒎𝒆𝒅 (𝜟𝑸)
+
+Marginal Utility: The Law of Diminishing Returns means that each additional
+item you consume brings less satisfaction than the one before.
+
+Income Effect and Substitution Effect
+
+If the price of apples drops, you will most likely buy more apples and
+fewer oranges, because apples have become cheaper (substitution
+effect).
+● If the price of apples drops, you can buy more apples or use the
+money you save to buy other goods, which increases your overall
+consumption and satisfaction level (income effect).
+●
+
+Income effect = price drop -> feeling rich
+Substitution Effect = price drop for X product -> go from Y (expensive) to X
+(cheaper alternative)
+
+INDIFFERENCE CURVES
+An indifference curve shows different combinations of two
+goods that provide the consumer with the same level of satisfaction or utility.
+
+The marginal rate of substitution (MRS) is the quantity of one good that a
+consumer can forego for additional units of another good at the same utility
+level.
+MRS = - MU(x) / MU(y)
+
+MRS = const (For goods that are perfect substitutes, the indifference curves
+are straight lines with a constant slope, indicating that the consumer views the
+goods as equally replaceable)
+MRS = 0 (For highly complementing goods, the indifference curve takes a sharp
+right angle shape (L-shaped). This happens because you need a fixed ratio of
+both goods to derive any satisfaction)
+
+BUDGET CONSTRAINT
+A budget constraint represents the combinations of goods and services that a
+consumer can purchase given their limited income and the prices of these
+goods and services. It is a fundamental concept in consumer choice theory in
+economics.
+
+General equation M = Px∙Qx + Py∙Qy
+Where:
+
+P(x) - price of good X
+● Q(x) - quantity of good X
+● P(y) - price of good Y
+● Q(y) - quantity of good Y
+● M = Total budget
+●
+
+Consumers aim to maximize their total utility given their budget constraints.
+
+This means they try to get the most satisfaction they can with the money they
+have.
+
+Utility Maximization
+
+Chapter 4
+Economic agents are the individuals, households, firms, and governments that
+make decisions about resource allocation.
+ORGANIZATION (FIRM) - A firm is an organization that converts inputs (labor,
+capital, raw materials) into outputs (goods and services).
+Production - the process of combining various material inputs and immaterial
+inputs (plans, know-how) in order to make something for consumption (output).
+FACTORS OF PRODUCTION:
+1) Land - all natural resources
+2) Capital - machinery, buildings (man-made tools)
+3) Labour - workers
+4) Entrepreneurship - new businesses.
+Diminishing Marginal Returns
+The marginal product of an input is the additional output produced by adding
+one more unit of that input, holding all other inputs constant.
+After a certain point, adding more of the input leads to a smaller and smaller
+increase in output. This occurs because the additional input becomes less
+effective as it is over-utilized relative to the fixed inputs.
+The main objective of a firm is often described as profit maximization
+Profit(π)=Total Revenue(TR)−Total Cost(TC)
+
+Rate of Return = (Gain from Investment - Cost of Investment) / Cost of
+Investment * 100%
+The Production Function
+Y = A * F(L, K, H, N)
+L = quantity of labor (number of workers)
+K = stock of physical capital
+H = stock of human capital
+N = stock of natural resources
+A = stock of technological knowledge
+
+Economic Agents and Rational Behavior
+Microeconomics assumes that agents act rationally, meaning they make
+decisions aimed at maximizing their satisfaction or utility (for consumers) or
+profit (for firms)
+Revenue is the income that a firm generates from the sale of goods or
+services. It is a crucial concept in economics and business as it represents the
+earnings that a company receives from its core operations. Revenue is often
+referred to as sales or turnover.
+Total Revenue(TR)=Price per unit×Total Quantity of goods sold
+Marginal Revenue (MR) = 𝜟𝑻𝒐𝒕𝒂𝒍 𝑹𝒆𝒗𝒆𝒏𝒖𝒆 (𝑻𝑹) / 𝜟𝑸𝒖𝒂𝒏𝒕𝒊𝒕𝒚 (𝑸)
+Marginal Revenue (MR) is the additional revenue that a firm earns from selling
+one more unit of a good or service. It is a crucial concept in economics and
+business because it helps firms understand how changes in their sales volume
+affect their overall revenue.
+TRANSACTION COSTS
+the costs incurred during the process of buying or selling goods and services.
+These costs are not related to the production of goods or services but are
+instead associated with the exchange process itself.
+
+. Search and Information Costs - these are the costs of finding the right
+product or service and gathering information about it.
+. Bargaining and Decision Costs - these are the costs involved in
+negotiating the terms of the exchange.
+. Policing and Enforcement Costs - these are the costs of ensuring that
+all parties adhere to the agreed terms of the contract.
+Reducing transaction costs with Technology, Standardization and Legal
+Frameworks.
+COSTS OF PRODUCTION - all the expenses incurred in the process of creating
+
+and delivering a product or service.
+●
+
+labor
+● raw materials
+● consumable manufacturing supplies
+● general overhead
+
+Types of Costs
+
+. Fixed Costs (FC) - Costs that do not vary with the level of output
+(Examples: rent, salaries)
+. Variable Costs (VC) - Costs that change with the level of output
+(Examples: Raw materials, hourly wages)
+. Direct
+. Indirect
+Total Costs - Sum of fixed and variable costs at each level of output. ( TC = FC
++ VC)
+Average Costs
+●
+
+Average Fixed Cost: AFC = FC / Q
+● Average Variable Cost: AVC = VC / Q
+● Average Total Cost: ATC = TC / Q
+Marginal Cost - The additional cost incurred by producing one more unit of a
+good or service ( MC = ΔTC / ΔQ )
+
+Profit-maximizing output: MR = MC (Marginal Revenue = Marginal Cost)
+MR and MC Relationship
+●
+
+When MR > MC, producing more units increases profit.
+● When MR < MC, producing more units decreases profit.
+● When MR = MC, profit is maximized.
+
+Economies of scale - the concept referring to a business event where the price
+of an item or product decreases as the production of the same item or product
+increases.
+Diseconomies of scale - happen when a company or business grows so large
+that the costs per unit increase.
+Calculate Break-Even Point (BEP)
+The break-even point allows a company to know when it, or one of its products,
+will start to be profitable. The break-even point is the point at which total cost
+and total revenue are equal, meaning there is no loss or gain for your small
+
+business. If a business’s revenue is below the break-even point, then the
+company is operating at a loss. If it’s above, then it’s operating at a profit.
+𝐁𝐄𝐏 = Fixed Costs (FC) / (Revenue per Unit − Variable Cost per Unit)
+
+Chapter 5
+
+MARKET - Mechanism connecting buyer and seller
+TYPES OF MARKET STRUCTURES
+• Perfect Competition - Market structure where competition is at its greatest
+possible level ( Large Number of Buyers and Sellers, Homogeneous Product,
+Free Entry and Exit, Perfect Knowledge)
+• Monopoly - Market structure that consists of only one seller or producer
+(Monopolist determines the price)
+
+• Monopolistic Competition - Market structure where thеre are many companies
+offer competing products or services that are similar, but not identical.
+• Oligopoly - An oligopoly is a market dominated by a few large firms, each of
+which has the power to influence the market.
+
+Collusion - An agreement among firms in an oligopoly to avoid competition by
+fixing prices or output levels. Collusion can be explicit (through cartels) or tacit.
+Cartels
+A formal agreement to coordinate prices and production. The most
+famous example is OPEC (Organization of Petroleum Exporting
+Countries), which sets production targets to influence the price of oil.
+Tacit
+Circumstance where two companies agree upon a certain strategy without
+putting it in writing or spelling out the strategy explicitly.
+
+Chapter 6
+Factors of production and factor incomes.
+Land - all natural resources used in production (forests, minerals, oil, rivers and
+etc.). Income earned: Rent
+Labor - human effort, both physical and mental, used in production
+(construction workers, doctors, engineers). Income earned: wages
+Capital - man-made goods that help in production (physical: machines, tools,
+computers; human: skills, knowledge, experience). Income earned: interest
+Entrepreneurship - the ability to organize the other three factors of production
+to create goods and services. Income earned: profit
+– Households own the factors of production
+– Firms need these factors to produce goods and services
+– Firms pay factor incomes (rent, wages, interest, profit) to households
+– Households use these incomes to buy goods and services, completing
+
+the economic cycle.
+Scarcity of the factor: if smth is limited, the price is high.
+Productivity: skilled worker earns more than an unskilled worker.
+Risk and uncertainty: entrepreneurs take more risks, they can make either huge
+profit or face losses.
+Productivity: Monopolies and powerful landlords can demand higher rents,
+wages, or profits.
+Nominal wage - the amount of money the worker receives.
+Real wage - the purchasing power of a worker’s income, adjusted for inflation.
+In marxist economics, labor divided into abstract labor and physical(concrete)
+labor. These two concepts help explain how work contributes to both value
+creation and usefulness in an economy.
+Abstract labor: general, not depend on the type of work, that contributes to the
+creation of value in a market economy. Measured in working hours.
+Physical labor: the actual work performed to produce a specific good or
+service. Requires specific skills or knowledge.
+In a market economy, every specific job is also a form of abstract labor.
+Types of capital:
+– Fixed capital: long-term physical assets used repeatedly in production
+
+–
+
+(buildings, machinery, equipment).
+– Working capital: short-term assets that are consumed or transformed
+in production (raw materials, inventory, electricity).
+Types of Profit:
+– Gross Profit: total revenue minus the direct cost of production (raw
+
+materials, labor). GP = Revenue - COGS
+– Net Profit: profit after subtracting all expenses, including rent, salaries,
+taxes, and utilities. NP = GP - Operating Expenses
+Key point: Net profit is what the owner actually keeps.
+Accounting Profit = Total Revenue - Explicit Costs
+Economic Profit = Total Revenue - (Explicit Costs + Implicit Costs)
+Note: implicit costs = opportunity cost of the owner’s time.
+Normal Profit = Total revenue = Total Costs (Explicit + Implicit)
+
+Economic Rent - any payment for land or a resource that exceeds the minimum
+necessary amount to keep it in use (when paying for office in the center of
+Almaty, even though the price for the same office in different place is much
+lower)
+Differential Rent - the extra rent earned by more productive land compared to
+less productive land.
+Scarcity Rent - paid for using land due to limited availability, even if all land is of
+equal quality.
+Monopoly Rent - earned when a single landowner controls a rare piece of land.
+Land price = Annual Rent / Interest Rate
+Note: the lower interest rates give higher land prices.
+
+Chapter 7
+Economic inequality - the unequal distribution of wealth, income, and
+opportunities among individuals, households or groups within a society or
+between different societies.
+Wealth - the disparity in the distribution of assets, including money, real estate,
+and stocks.
+
+Income - Uneven distribution of earnings from wages, dividends, interest, and
+any other sources of income.
+Causes of Economic Inequality:
+
+. Globalization - can lead to job losses in industries facing competition
+from cheaper imports, affecting lower-skilled workers
+disproportionately.
+. Technology - advances often benefit skilled over unskilled workers,
+widening income gaps.
+. Education and Skill Levels - higher education and skills often correlate
+with higher income, contributing to income disparities.
+. Government Policies - taxation, welfare, and public service policies
+can either mitigate or exacerbate inequality.
+Marginal Productivity Theory of Distribution
+This theory explained as income distribution is determined by the marginal
+productivity of the individuals. So each individual is paid according to their
+productivity, which can lead to inequality.
+Productivity - the amount of goods and services produced for each hour of a
+worker’s time.
+The production function: Y = AF(L, K, H, N), where L - quantity of workers, K stock of physical capital, H - stock of human capital, N - stock of natural
+resources, A - stock of technological knowledge.
+
+Gini coefficient- measures income distribution across a population.
+The coefficient ranges from 0 to 1, with 0 representing perfect equality, and 1
+representing perfect inequality.
+Lorenz Curve - a graphical representation of income inequality or wealth
+inequality.
+
+How to conquer the Economic inequality
+
+. Progressive taxation: taxing higher income at higher rates can
+redistribute income more equitably.
+. Education and Training: investing in education and vocational training
+can equip individuals with the skills needed in a changing economy.
+. Social safety nets: programs like unemployment benefits, healthcare,
+and pensions can provide a minimum standard of living.
+. Minimum wage laws: ensuring a minimum standard of living for all
+workers can help reduce income disparities.
+
+Chapter 8
+The national economy as a system.
+Economics - Is a social science that studies how individuals, firms, and
+societies make choices to allocate limited resources to satisfy their unlimited
+wants.
+Microeconomics is a branch of economics that analyzes market behavior of
+individuals and firms in order to understand their decision-making process.
+Macroeconomics is a branch of economics that studies how an overall economy
+- the markets, businesses, consumers and governments behave.
+National Economy - the system of production, distribution and trade,
+consumption of goods and services by different agents of a nation.
+The primary aim of this system is to allocate limited resources efficiently to
+meet the unlimited wants and needs of its population.
+Other goals: 1) Improving efficiency; 2) Equity; 3) Economic freedom; 4)
+Economic growth; 5) Full employment; 6) Price stability
+Key components of the national economy:
+
+. Households - the consumers of goods and services, who also offer
+labor and other resources to the production process.
+. Business - entities that produce goods and services. They use labor,
+capital and natural resources to create outputs.
+. Government - plays a dual role by being a consumer and a provider. It
+consumes resources to provide public goods and services and
+regulates economic activities through policies and laws.
+
+. The foreign sector - represents trade and financial transactions with
+other countries.
+Key economic indicators:
+
+. GDP - total market value of all final goods and services produced
+within a country in a given period.
+. Unemployment rate - the percentage of the labor force that is jobless
+and actively seeking employment.
+. Inflation Rate - the rate at which the general level of prices for goods
+and services is rising.
+Economic Systems are organized ways in which societies determine the
+ownership, direction, allocation, and distribution of economic resources.
+Traditional Economic System - based on custom, beliefs, and traditions.
+Economic roles and decisions are defined by cultural practices passed down
+through generations (Pros: stability and predictability. Cons: resistance to
+change and innovation).
+Command (Planned Economy) System - the government or a central authority
+makes all decisions regarding the production and distribution of goods and
+services, ownership of resources is state-controlled (Pros: rapidly mobilize
+resources on a large scale. Cons: lack of incentives for efficiency and
+innovation).
+Market Economic System - decisions regarding investment, production, and
+distribution are based on market conditions, such as supply and demand,
+private individuals and businesses own most resources (Pros: encourages
+innovation and efficiency through competition. Cons: lead to income inequality
+and market failures where unregulated markets fail to produce efficiently or
+equitably).
+Mixed Economic System - combines elements of market, command, and
+sometimes traditional systems. Both the government and private sector play
+significant roles in economic decision-making. (Pros: Balances efficiency and
+innovation of the market with ability to address inequalities and provide public
+goods. Cons: the balance between government intervention and market
+freedom can be difficult to achieve and maintain).
+Transition Economies - transitioning from a command to a market-based
+system. These economies are undergoing significant structural reforms to move
+towards more market-oriented models. (Pros: potential for rapid economic
+growth and development as market efficiencies are introduced. Cons: transition
+can be marked by economic instability, uncertainty and disparities in wealth and
+income.
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸺
+
+Adam Smith classical economist introduced the ideas about free markets, the
+division of labor, and the invisible hand theory. (Self-interest, competition,
+decentralized Decision-making, efficient allocation of Resources).
+Karl Marx - critiqued the capitalist system, focusing on labor exploitation and
+the inevitable class struggles. His work laid the foundation for later socialist and
+communist movements.
+John Keynes - theory emphasizing the role of government intervention in
+stabilizing the economy.
+Neoliberal Era (Ronald Reagan) - period marked by a resurgence of free-market
+principles, deregulation, globalization, and the reduction of state intervention in
+the economy.
+
+Chapter 9
+Macroeconomics indicators - statistics or readings that reflect the economic
+circumstances of a particular country, region or sector. They are used by
+analysts and governments to assess the current and future health of the
+economy and financial markets.
+Types of Macroeconomics Indicators: 1) Leading Indicators; 2) Lagging
+Indicators; 3) Coincident Indicators
+Leading Indicators - these predict future economic activity. Yield curve,
+consumer durables, net business formations, and share prices.
+Lagging Indicators - these data sets show information after events have
+happened. GNP, CPI, unemployment rates, and interest rates.
+Coincident Indicators - these change at approximately the same time as the
+economy as a whole, providing information about the current state of the
+economy. GDP, employment levels, and retail sales.
+Pros and cons:
+●
+
+May accurately forecast what is to come based on prevailing data
+● Often use publicly available information
+● May be calculated using the same process over and over, particularly
+when issued by governments
+● May be released on a fixed, predictable cadence
+– May not accurately predict the future
+– Rely on many assumptions, some of which may be unpredictable
+– Can be open for interpretation
+– Still require expertise to interpret and understand
+
+Key Macroeconomic Indicators:
+●
+
+Gross Domestic Product (GDP) - The total monetary or market value of
+all the finished goods and services produced within a country's
+borders in a specific time period. It acts as a comprehensive scorecard
+of a country’s economic health.
+Economic Growth Measurement: An increasing GDP indicates economic growth,
+while a declining GDP points to an economic downturn.
+International Comparison: Enables comparison of economic productivity and
+living standards between countries.
+●
+
+Unemployment Rate - The percentage of the labor force that is
+jobless, actively seeking employment, and available to work.
+
+Economic Health Indicator: A low unemployment rate indicates a healthy
+economy, while a high rate suggests economic distress.
+Policy Making Influences government and central bank policies, such as fiscal
+stimulus or adjustments in interest rates to stimulate employment.
+●
+
+Inflation Rate - The rate at which the general level of prices for goods
+and services is rising, eroding purchasing power.
+
+Purchasing Power: A moderate inflation rate is normal and expected as it
+indicates a growing economy, but high inflation reduces the purchasing power
+of money.
+Monetary Policy: Central banks closely monitor inflation to adjust monetary
+policies, aiming to maintain price stability.
+●
+
+Interest Rates - The amount charged by lenders to borrowers for the
+use of assets, expressed as a percentage of the principal.
+Economic Activity: Lower interest rates can stimulate economic activity by
+making borrowing cheaper, while higher rates can help cool an overheated
+economy.
+Investment Decisions: Interest rates affect consumer spending and investment
+decisions, impacting sectors like housing and business investment.
+●
+
+Balance of Trade - The difference between a country’s exports and
+imports of goods and services.
+
+Economic Health: A positive balance (trade surplus) indicates that a country is
+exporting more than it is importing, which can be a sign of economic strength.
+Currency Value: Influences the value of a country’s currency in the global
+market, affecting everything from inflation to investment flows.
+Correlation vs. Causation
+
+Correlation - when two indicators move in tandem.
+Causation - when one indicator directly affects another.
+
+Chapter 10
+Inflation and unemployment
+Inflation - a general, continuous increase in prices.
+Causes of inflation:
+●
+
+Printing and giving away more money to citizens
+● Legally devaluing (reducing the value of) the legal tender currency
+● Loaning new money into existence as reserve account credits through
+the banking system by purchasing government bonds from banks on
+the secondary market
+
+Inflation Rate (Пи) = P(cur. Year) - P(prev. Year) / P(prev. Year) * 100%
+CPI measures the average change over time in the prices paid by urban
+consumers for a market basket of consumer goods and services.
+CPI = Cost of Market Basket (cur. Year) / Cost of Market Basket (base Year) *
+100
+Inflation = New CPI - Old CPI / Old CPI * 100%
+PPI = Cost of Market Basket (cur. Year) / Cost of Market Basket (base Year) *
+100%
+
+CPI - a measure of the average change over time in the prices paid by urban
+consumers for a market basket of consumer goods and services
+SHRINKFLATION - the practice of reducing the size (quantity) of a product
+while maintaining its sticker price.
+Deflation - is a general decline in prices for goods and services.
+Unemployment - a situation where a person actively searches for employment
+but is unable to find a paid work
+Causes of unemployment:
+●
+
+Voluntary decisions to leave a job
+● Mismatch between the skills of the workforce and the needs of the
+employers
+
+Technological advancement
+● Shifts in consumer demand
+● Economic downturns and falls
+●
+
+The Laspeyres Price Index, developed by Etienne Laspeyres, measures price
+changes of a basket of goods and services relative to a base period.
+
+The Paasche Price Index compares the cost of a basket of goods and services
+in a given period to the cost of the same basket in a base period, using current
+period quantities.
+
+The Fisher Ideal Index, named after Irving Fisher, compares the cost of a basket
+of goods and services between periods using a geometric mean of the
+Laspeyres and Paasche price indices.
+
+Unemployment Rate = Unemployed / Labour Force * 100
+where Labour Force = Unemployed + Employed
+Participation Rate = Labour Force / Working age population (16-64) * 100
+
+Policies to reduce unemployment:
+
+. Monetary policy - lowering interest rates to stimulate borrowing and
+investment.
+. Fiscal Policy - increasing government spending or cutting taxes to
+boost economic activity.
+
+. Education and Training Programs - helping workers gain new skills that
+are in demand.
+Philips Curve - inverse relationship between unemployment and inflation. This
+implies that as unemployment decreases, inflation increases and vice versa.
+Stagflation - high inflation and high unemployment occurred simultaneously.
+Chapter 11
+Economic growth and economic cycles
+Economic growth refers to the increase in the inflation-adjusted market value of
+the goods and services produced by an economy over time. This is often
+measured by the rate of change in a country’s GDP.
+Important because leads to increased incomes, higher standards of living and a
+reduction in poverty.
+Extensive economic growth - occurs when an economy grows by increasing the
+quantity of inputs used in production, such as labor, capital, and natural
+resources. Utilizing more resources expands the scale of economic activity.
+Intensive economic growth - occurs when an economy grows by increasing the
+productivity of its existing resources. Improve in efficiency, technology and the
+quality leads to growth.
+Productivity - the amount of goods and services produced for each hour of a
+worker’s time.
+Y = A * f(L, K, H, N)
+L - number of workers; K - stock of physical capital; H - stock of human capital;
+N - stock of natural resources; A - stock of technological knowledge.
+First industrial revolution - the steam engine.
+Second industrial revolution - electricity and the internal combustion engine.
+Third industrial revolution - PC and Internet.
+Fourth industrial revolution - AI, IoT, robotics, 3D and blockchain.
+The catch-up effect:
+The property whereby poor countries tend to grow more rapidly than rich ones.
+
+Economic growth rate (EGR) is the ratio of the value of the real GDP of the
+current period (year) with the value of the real GDP of the previous year or
+other period, taken as the basis of comparison.
+
+EGR = (Real GDP in current year - Real GDP In prev. year) / Real GDP in prev.
+year * 100
+To raise K/L (capital per worker) and hence productivity, wages and living
+standards, the government can also encourage:
+
+. Foreign direct investment: a capital investment that is owned &
+operated by a foreign entity.
+. Foreign portfolio investment: a capital investment financed with
+foreign money but operated by domestic residents.
+Like physical capital, human capital accumulation raises productivity.
+Health care expenditure is a type of investment in human capital — healthier
+workers are more productive.
+The ability of people to exercise authority over the resources they own.
+Trade has similar effects as discovering new technologies — it improves
+productivity and living standards.
+Technological progress is the main reason why living standards rise over the
+long run.
+More people
+more scientists, inventors, engineers
+more frequent discoveries
+faster tech. progress & economic growth
+Challenges and considerations:
+
+. Environmental sustainability
+. Income inequality
+. Over-reliance on non-renewable resources
+. Social and Cultural Impacts
+. Macroeconomic Instability
+Economic (business) cycles are the fluctuations in economic activity that an
+economy experiences over a period of time.
+GDP = C + I + G + (X - M)
+Where C - consumer spending; I - business investment; G - government
+spending; X - M = net export.
+Expansion - growing (GDP, Falling unemployment rates, higher consumer and
+business confidence, increased consumer spending and business investment,
+stable or rising inflation rates)
+Peak - maximum (Max GDP, full employment, high confidence, high inflation,
+overheating economy risks)
+Contraction - decreasing (Decreasing GDP, Rising unemployment, decline in
+confidence, reduced spending and investments, deflation)
+Trough - minimum (GDP, high unemployment, low confidence, decline, low
+inflation)
+
+Chapter 12
+Money and the banking system
+Money is a commodity accepted by general consent as a medium of economic
+exchange.
+Functions:
+
+. A medium of exchange - money facilitates the exchange of goods and
+services by eliminating the need for barter.
+. A unit of account - money provides a common measure of the value of
+goods and services, enabling comparison and calculation of prices and
+costs.
+. A store of value - money allows individuals to store purchasing power
+for future use, preserving wealth over time.
+Intrinsic value: Yes (Commodity Money) - it has a value apart from its use as
+money, may vary in quality, the system has costs of production, storage and
+transportation of the commodity
+Intrinsic value: No (Fiat Money) - legal tender, its not linked to a tangible asset,
+can be regulated with greater flexibility.
+Basic principle - What makes something money is really found in its
+acceptability, not in whether or not it has intrinsic value or whether or not a
+government has declared it as such.
+Liquidity - The ease with which an asset, or security, can be converted into
+ready cash without affecting its market price. Assets that are considered highly
+liquid can be quickly converted into cash with minimal impact on their market
+value.
+
+Money Demand (MD) - the demand for money refers to the desire to hold
+money (cash or in bank accounts) instead of investing it or spending it
+immediately.
+
+. Transaction Demand - the need for money for day-to-day
+transactions.
+. Precautionary Demand - the need for money for unexpected expenses.
+. Speculative Demand - the need for money to take advantage of
+investment opportunities.
+Income Level high -> Money Demand High
+Interest Rates low -> Money Demand High
+Price Level high -> Money Demand High
+Economic Uncertainty -> Money Demand High
+Money Supply (MS) - the total amount of money: cash, coins and balances in
+bank accounts - in circulation.
+M1 Money Supply - called “narrow money” includes M0 (cash) and other highly
+liquid deposits in the bank
+M2 Money Supply - M1 + marketable securities and less liquid deposits
+M3 Money Supply - M2 + mutual funds, repurchase agreements, commercial
+papers.
+M4 Money Supply - M3 + other least liquid assets, usually outside commercial
+banks.
+Equilibrium in financial markets requires that money supply (MS) be equal to
+money demand (MD).
+
+Velocity of Money is a measurement of the rate at which money is exchanged in
+an economy.
+Velocity = GDP / Money supply
+Velocity = Price level * Real GDP / Money supply
+Gauging Economic Health - high velocity = strong and expanding economy.
+Understanding inflation - if the MS increases, but velocity stays the same, it
+can lead to inflation.
+Informing policy decisions - if the policymakers increase the MS to stimulate
+economy, but the velocity remains low, it suggests that the policy might not be
+working as intended.
+Identifying underlying issues - a change in the velocity of money can be a
+warning sign of deeper problems.
+Fisherian theory - suggests there is a mechanical and fixed proportional
+relationship between changes in the MS and the general price level.
+M*V=P*T
+M - money supply; V - velocity of money; P - average price level; T - volume of
+transactions in the economy.
+Nominal money - not adjusted for inflation, just numbers that you get or have.
+Real money - the purchasing power of nominal money. Adjusted by inflation.
+Monetary policy - the control of the quantity of money available in an economy
+and the channels by which new money is supplied.
+Interest Rate - the cost of borrowing money or the return on investment for
+lending money expressed as a percentage of the principal amount.
+Fisher Equation: The nominal interest rate is equal to the sum of the real
+interest rate and inflation.
+Fisher Equation Formula: (1+i) = (1+r) (1 + Пи)
+I - the nominal interest rate
+R - the real interest rate
+Пи - the inflation rate
+R = (1 + i) / (1 + Пи) - 1
+We used it to understand the real returns of the investments, to assessed the
+appropriate level of nominal interest rates, its highlights the importance of
+inflation expectations, and also apply in risk management strategies.
+MONEY CREATION (ISSUANCE)
+
+Money creation primarily occurs in two ways: through central banking
+operations and through the commercial banking system.
+Open market operations (OMO), the central bank’s primary tool for regulating
+money supply, involve buying or selling government bonds to increase or
+decrease the money in circulation.
+Quantitative Easing (QE) is a large-scale monetary policy used during severe
+economic downturns. The central bank buys longer-term securities to inject
+money into the financial system, aiming to lower interest rates and stimulate
+lending and investment.
+Issuing Currency: The central bank also has the exclusive right to issue
+currency, which directly increases the money supply when more currency is put
+into circulation.
+Fractional-reserve banking allows banks to create new money by lending out a
+fraction of deposits. Deposits and loans create a multiplicative effect on money
+creation, with a $100 deposit potentially generating $900 in loans and $1,000 in
+new money.
+Structure of the Banking System:
+
+. Central Bank - Central banks regulate monetary and banking policies,
+issue currency, manage reserves, and set interest rates.
+. Commercial Banks - Retail banks provide everyday banking services
+like deposits, loans, and accounts.
+. Investment Banks - These banks serve businesses, governments, and
+institutional investors, helping raise capital through underwriting and
+securities issuance.
+. Savings and Loan Associations - These institutions traditionally
+specialized in savings accounts and real estate financing.
+. Credit Unions - Member-owned, not-for-profit organizations provide
+banking services.
+Banks facilitate the flow of funds, provide payment systems, offer financial
+services, manage risk, and create credit, all of which are essential for economic
+growth. Banks influence economic growth and inflation by controlling money
+supply and lending rates. Banks provide liquidity to meet short-term needs.
+Banks assess credit risk and allocate resources to minimize financial crises.
+
+The Gold Standard was a monetary system where currency was tied to gold,
+with countries converting paper money to gold upon demand. The Classical
+Gold Standard (1870-1914) facilitated international trade and investment with
+fixed exchange rates and low inflation. However, it limited monetary policy due
+to reliance on gold reserves.
+
+After WWI, countries struggled to restore the gold standard due to uneven gold
+reserves and inflation. The Great Depression worsened as the gold standard
+limited monetary policy, leading to deflation and economic stagnation.
+The Bretton Woods Agreement established a new global monetary system,
+pegging the USD to gold and other currencies to the dollar. However, excessive
+dollar printing without corresponding gold reserves led to a loss of confidence
+and the eventual abandonment of the gold standard in 1971.
+
+Chapter 13
+Credit and Banking System
+Credit is the ability of a borrower to obtain goods, services, or money in the
+present in exchange for a promise to repay in the future, usually with interest.
+The principal (основная сумма) is the original amount of money that is
+borrowed or lent, before interest is added.
+Interest is the cost of borrowing money, typically expressed as an annual
+percentage of the principal, called the interest rate.
+Interest = P(principal) * r(annual interest rate) * t (time in years)
+Compound Interest is calculated on the initial principal and also on the
+accumulated interest from previous periods - “interest on interest”.
+A = P ( 1 + r/n)^nt
+A = final amount; P = principal; r = annual rate; n = number of compounding
+periods per year; t = time in years.
+Maturity (Term of the Loan)
+Is the length of time agreed upon for the borrower to repay the loan in full.
+●
+
+Short-term credit: typically < 1 year
+● Medium-term credit: 1-5 years
+● Long-term credit: >5 years
+Creditworthiness is a measure of how likely a borrower is to repay a loan based on their financial history, income, and other factors.
+Evaluated Using:
+
+●
+
+Credit score/rating
+● Income levels
+● Collateral
+● Employment status
+● Debt-to-income ratio
+Monetary Policy - a set of tools used by a nation's central bank to control the
+overall money supply and promote economic growth
+
+Federal Reserve's Dual Mandate
+• Maximum employment: This means keeping the unemployment rate as low as
+possible without causing inflation. A strong job market benefits the economy
+overall.
+• Stable prices: This refers to keeping inflation in check. If prices rise too
+quickly, it reduces the purchasing power of money.
+Monetary Policy Tools:
+
+. Interest Rates: a key monetary policy tool, influencing spending and
+investment through borrowing costs.
+. Open Market Operations (OMO): involve buying and selling
+government securities to influence bank reserves and the economy.
+. Reserve Requirements: The Central Bank influences money creation by
+setting the reserve ratio.
+. Discount Rate: The Fed can target changes in the discount rate.
+Expansionary Policy: Lower interest rates and increase the total money supply
+to stimulate economic growth.
+Contractionary Policy: Reduce inflation by decreasing the money supply and
+increase interest rates.
+Cryptocurrency is a type of digital asset based on a network that is distributed
+across a large number of computers.
+Features: 1) Decentralization - do not have a central authority. 2) Operates on a
+blockchain, it is a public ledger of all transactions that have ever been
+executed. 3) Encryption - advanced coding is involved In the entire process of
+generating and transmitting crypto data. 4) Every transaction is visible to all
+users and included in the blockchain that ensures complete transparency, with
+security and privacy.
+
+
