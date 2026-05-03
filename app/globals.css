@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.prose-econ {
+  @apply text-ink-100 leading-relaxed;
+}
+.prose-econ h1,
+.prose-econ h2,
+.prose-econ h3 {
+  @apply text-ink-50 font-semibold mt-4 mb-2;
+}
+.prose-econ h2 {
+  @apply text-lg;
+}
+.prose-econ h3 {
+  @apply text-base;
+}
+.prose-econ ul {
+  @apply list-disc pl-5 my-2;
+}
+.prose-econ ol {
+  @apply list-decimal pl-5 my-2;
+}
+.prose-econ li {
+  @apply my-1;
+}
+.prose-econ p {
+  @apply my-2;
+}
+.prose-econ code {
+  @apply bg-ink-700 text-ink-50 px-1 py-0.5 rounded text-[0.85em];
+}
+.prose-econ pre {
+  @apply bg-ink-800 text-ink-50 p-3 rounded-md overflow-x-auto my-2;
+}
+.prose-econ blockquote {
+  @apply border-l-4 border-accent-500 pl-3 my-2 text-ink-200 italic;
+}
+.prose-econ a {
+  @apply text-accent-400 underline underline-offset-2;
+}
+
+/* subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a3a4d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

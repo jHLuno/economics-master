@@ -1,0 +1,15 @@
+[build]
+  command = "npm run ingest && npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Netlify Functions for Next.js API routes need a generous timeout because
+# the first request after a cold start downloads the MiniLM ONNX model.
+[functions]
+  node_bundler = "esbuild"
